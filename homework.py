@@ -199,7 +199,7 @@ def main():
     book = load_data()
     print("Welcome to the assistant bot!")
     while True:
-        user_input = input("Enter a command: ")
+        user_input = input("Enter a command: ").strip()
         
         if not user_input: 
             print("Please enter a command.")
